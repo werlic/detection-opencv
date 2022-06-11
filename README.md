@@ -11,11 +11,14 @@ Before running program, you must have own cascade trained with dataset.
 2. Own Cascade file
 <br>
 ### change value in this variable with own path to image file :
+
 ```
 img_path = '<path_to_your_img>'
 ```
-<br>
+
+<br/>
 ### change value in this variable with own path to cascade :
+
 ```
 cascade_path = '<path_to_your_cascade>'
 ```
