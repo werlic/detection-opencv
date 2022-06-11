@@ -9,7 +9,7 @@ original_image = cv.imread(img_path)
 grayscale_image = cv.cvtColor(original_image, cv.COLOR_BGR2RGB)
 
 # Load the classifier and create a cascade object for face detection
-cascade_path = 'cascade/cascade.xml'
+cascade_path = 'cascade/haarcascade_frontalface_alt.xml'
 cascade = cv.CascadeClassifier(cascade_path)
 
 detected_object = cascade.detectMultiScale(grayscale_image)
