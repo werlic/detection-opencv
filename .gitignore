@@ -1,4 +1,6 @@
-
+cascade/
+dataset/
+test/
 
 # v-env
 env
@@ -6,3 +8,5 @@ venv
 
 # code editor
 .vscode
+
+!cascade/haarcascade_frontalface_alt.xml
